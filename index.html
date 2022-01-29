@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groot conversation</title>
+    <style>
+        h1{
+            text-align: center;
+            background-color: #86efac;
+            height: 10vh;
+            padding-top:2rem
+        }
+        textarea{
+            width: 80%;
+            height: 10vh;
+            border-top-left-radius: 1rem;
+            display: block;
+            margin: auto;
+            padding:1rem;
+            border-color: #86efac;
+
+
+        }
+        button{
+            height: 5vh;
+            border-top-left-radius:0.8rem;
+            border-color: #86efac;
+            color:seagreen;
+            display: block;
+            margin: auto;
+            
+        }
+        #output{
+            border:1px solid #86efac;
+            height:10vh;
+            border-top-left-radius: 1rem;
+            display:block;
+            margin:auto;
+            padding:1rem;
+            width:80%;
+        }
+        #here{
+            color: #ca8607;
+            text-align: center;
+            margin:1rem 0rem;
+        }
+        
+        footer{
+            border: 1px solid #86efac;
+            border-top-left-radius: 1rem;
+            text-align: center;
+            background-color:#86efac;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Talk to Groot </h1>
+    <textarea id="txt-input"
+        placeholder ="put your sentance in English here and we will convert it to GROOT Term"></textarea>
+        <br><br>
+    <button id="btn-translate">translate to GROOT</button> 
+    <br><br>    
+   <DIV id="here" style="font-size: larger">Outcome Will Come Here👇</DIV>
+   <div id ="output"></div>
+   <br><br><br>
+   <footer >
+       <div>
+           <h2>about</h2>
+           <p>Are you a fan of groot? Did you know that the gibberish they say is an actual language.Use the translator to convert your text from English to Groot speak or Talk to Groot</p>
+
+       </div>
+   </footer>
+
+    <script src="app.js" type="text/javascript"></script>
+</body>
+
+</html>
