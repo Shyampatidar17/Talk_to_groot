@@ -1,9 +1,10 @@
 var btnTranslate= document.querySelector("#btn-translate");
 
-btnTranslate.addEventListener("click", function clickEventListener(){
-    console.log("clicked!")
-})
+function clickHandler() {
+    console.log("clicked!");
+}
 
- 
+btnTranslate.addEventListener("click", clickHandler)
+
 
 // https://api.funtranslations.com/translate/groot.json
