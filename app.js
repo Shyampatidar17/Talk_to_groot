@@ -6,7 +6,10 @@ var outputDiv = document.querySelector("#output");
 
 // var serverURL ="https://api.funtranslations.com/translate/groot.json"
 
-var serverURL = "https://api.funtranslations.com/translate/minion.json"
+// var serverURL = "https://api.funtranslations.com/translate/minion.json"
+
+var serverURL ="https://api.funtranslations.com/translate/ferb-latin.json"
+
 
 function getTranslationURL(input){
     return serverURL + "?" + "text=" + input
